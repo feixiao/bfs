@@ -101,4 +101,7 @@ $ nohup python runserver.py &
  
 ## API
 [api文档](https://github.com/Terry-Mao/github.com/feixiao/bfs/blob/master/doc/api.md)
-## 更多
+
+
+## 参考资料
++ [bfs:支撑Bilibili的小文件存储系统](https://www.jianshu.com/p/923917220d23)
