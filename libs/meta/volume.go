@@ -1,6 +1,6 @@
 package meta
 
-import "bfs/libs/stat"
+import "github.com/feixiao/bfs/libs/stat"
 
 type Volume struct {
 	Id    int32       `json:"id"`

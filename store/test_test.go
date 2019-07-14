@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bfs/store/conf"
-	"bfs/store/needle"
+	"github.com/feixiao/bfs/store/conf"
+	"github.com/feixiao/bfs/store/needle"
 	"time"
 )
 

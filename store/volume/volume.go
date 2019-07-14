@@ -1,12 +1,12 @@
 package volume
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/stat"
-	"bfs/store/block"
-	"bfs/store/conf"
-	"bfs/store/index"
-	"bfs/store/needle"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/stat"
+	"github.com/feixiao/bfs/store/block"
+	"github.com/feixiao/bfs/store/conf"
+	"github.com/feixiao/bfs/store/index"
+	"github.com/feixiao/bfs/store/needle"
 	"fmt"
 	log "github.com/golang/glog"
 	"sort"

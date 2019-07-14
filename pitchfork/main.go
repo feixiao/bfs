@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bfs/pitchfork/conf"
+	"github.com/feixiao/bfs/pitchfork/conf"
 	"flag"
 	log "github.com/golang/glog"
 )

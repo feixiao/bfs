@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/meta"
 	"encoding/json"
 	"net/http"
 	"time"

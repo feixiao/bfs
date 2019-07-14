@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	xtime "bfs/libs/time"
+	xtime "github.com/feixiao/bfs/libs/time"
 
 	"github.com/BurntSushi/toml"
 )

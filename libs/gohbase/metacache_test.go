@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/region"
-	"bfs/libs/gohbase/regioninfo"
+	"github.com/feixiao/bfs/libs/gohbase/conf"
+	"github.com/feixiao/bfs/libs/gohbase/region"
+	"github.com/feixiao/bfs/libs/gohbase/regioninfo"
 	"time"
 )
 

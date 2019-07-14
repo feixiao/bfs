@@ -93,7 +93,7 @@ store has many volumes, volume has a unique id in one store server. one volume h
 [Back to TOC](#table-of-contents)
 
 ## Installation
-* bfs/store development files are required.
+* github.com/feixiao/bfs/store development files are required.
 * golang 1.5.1
 
 just pull `Terry-Mao/bfs` from github using `go get`:
@@ -207,7 +207,7 @@ $> cat /tmp/store.idx
 
 ```sh
 # test
-$ cd $GOPATH/github.com/Terry-Mao/bfs/store
+$ cd $GOPATH/github.com/Terry-Mao/github.com/feixiao/bfs/store
 $ go test -v
 # benchmark
 go test -v -bench=. -benchtime=10s
@@ -362,7 +362,7 @@ response a json:
 | 65534 | param error |
 | 65535   | internal error |
 
-for more error code, see the [errors.go](https://github.com/Terry-Mao/bfs/blob/master/store/errors.go)
+for more error code, see the [errors.go](https://github.com/Terry-Mao/github.com/feixiao/bfs/blob/master/store/errors.go)
 
 exmaples:
 
@@ -466,7 +466,7 @@ response a json:
 | 65534 | param error |
 | 65535   | internal error |
 
-for more error code, see the [errors.go](https://github.com/Terry-Mao/bfs/blob/master/store/errors.go)
+for more error code, see the [errors.go](https://github.com/Terry-Mao/github.com/feixiao/bfs/blob/master/store/errors.go)
 
 exmaples:
 

@@ -9,9 +9,9 @@ import (
 	"bytes"
 	"testing"
 
-	"bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/pb"
-	"bfs/libs/gohbase/regioninfo"
+	"github.com/feixiao/bfs/libs/gohbase/conf"
+	"github.com/feixiao/bfs/libs/gohbase/pb"
+	"github.com/feixiao/bfs/libs/gohbase/regioninfo"
 	"time"
 )
 

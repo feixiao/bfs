@@ -1,9 +1,9 @@
 package hbase
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/gohbase/hrpc"
-	"bfs/libs/meta"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/gohbase/hrpc"
+	"github.com/feixiao/bfs/libs/meta"
 	"bytes"
 	"context"
 	"encoding/binary"

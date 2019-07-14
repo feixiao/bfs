@@ -1,7 +1,7 @@
 package meta
 
 import (
-	"bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/errors"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"

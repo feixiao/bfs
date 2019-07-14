@@ -1,7 +1,7 @@
 package zk
 
 import (
-	"bfs/directory/conf"
+	"github.com/feixiao/bfs/directory/conf"
 	log "github.com/golang/glog"
 	"github.com/samuel/go-zookeeper/zk"
 	"path"

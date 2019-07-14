@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bfs/directory/conf"
-	dzk "bfs/directory/zk"
+	"github.com/feixiao/bfs/directory/conf"
+	dzk "github.com/feixiao/bfs/directory/zk"
 	"testing"
 	"time"
 	//	"fmt"

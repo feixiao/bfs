@@ -1,9 +1,9 @@
 package bfs
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/proxy/conf"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/meta"
+	"github.com/feixiao/bfs/proxy/conf"
 	"bytes"
 	"encoding/json"
 	"fmt"

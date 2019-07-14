@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bfs/pitchfork/conf"
-	myzk "bfs/store/zk"
+	"github.com/feixiao/bfs/pitchfork/conf"
+	myzk "github.com/feixiao/bfs/store/zk"
 	"fmt"
 	"testing"
 	"time"

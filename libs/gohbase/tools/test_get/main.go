@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"bfs/libs/gohbase"
-	"bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/hrpc"
+	"github.com/feixiao/bfs/libs/gohbase"
+	"github.com/feixiao/bfs/libs/gohbase/conf"
+	"github.com/feixiao/bfs/libs/gohbase/hrpc"
 )
 
 var (

@@ -32,7 +32,7 @@ just pull `Terry-Mao/bfs` from github using `go get`:
 
 ```sh
 $ go get github.com/Terry-Mao/bfs
-$ cd $GOPATH/github.com/Terry-Mao/bfs/pitchfork
+$ cd $GOPATH/github.com/Terry-Mao/github.com/feixiao/bfs/pitchfork
 $ go build
 ```
 

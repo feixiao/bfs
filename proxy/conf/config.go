@@ -1,8 +1,8 @@
 package conf
 
 import (
-	"bfs/libs/memcache"
-	"bfs/libs/time"
+	"github.com/feixiao/bfs/libs/memcache"
+	"github.com/feixiao/bfs/libs/time"
 	"path"
 	"strings"
 
@@ -59,7 +59,7 @@ func NewConfig(conf string) (c *Config, err error) {
 	if _, err = toml.DecodeFile(conf, c); err != nil {
 		return
 	}
-	// bfs,/bfs,/bfs/ convert to /bfs/
+	// bfs,/bfs,/github.com/feixiao/bfs/ convert to /github.com/feixiao/bfs/
 	if c.Prefix != "" {
 		c.Prefix = path.Join("/", c.Prefix) + "/"
 		// http://domain/ covert to http://domain

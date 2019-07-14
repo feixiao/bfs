@@ -16,8 +16,8 @@ import (
 	// log "golang/log4go"
 	log "github.com/golang/glog"
 
-	"bfs/libs/gohbase/hrpc"
-	"bfs/libs/gohbase/pb"
+	"github.com/feixiao/bfs/libs/gohbase/hrpc"
+	"github.com/feixiao/bfs/libs/gohbase/pb"
 
 	"github.com/golang/protobuf/proto"
 )

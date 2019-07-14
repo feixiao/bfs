@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"bfs/libs/gohbase"
-	"bfs/libs/gohbase/hrpc"
-	"bfs/libs/gohbase/test"
+	"github.com/feixiao/bfs/libs/gohbase"
+	"github.com/feixiao/bfs/libs/gohbase/hrpc"
+	"github.com/feixiao/bfs/libs/gohbase/test"
 )
 
 var host = flag.String("HBase Host", "localhost", "The location where HBase is running")

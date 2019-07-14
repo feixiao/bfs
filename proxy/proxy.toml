@@ -8,7 +8,7 @@ BfsAddr = "localhost:2235"
 
 Domain = "http://localhost:2232/"                                                                              
 
-Prefix = "/bfs/"
+Prefix = "/github.com/feixiao/bfs/"
 
 MaxFileSize = 20971520
 

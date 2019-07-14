@@ -3,7 +3,7 @@ package bucket
 import (
 	"fmt"
 
-	"bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/errors"
 )
 
 const (

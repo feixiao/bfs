@@ -1,8 +1,8 @@
 package zk
 
 import (
-	"bfs/libs/meta"
-	"bfs/store/conf"
+	"github.com/feixiao/bfs/libs/meta"
+	"github.com/feixiao/bfs/store/conf"
 	"encoding/json"
 	log "github.com/golang/glog"
 	myzk "github.com/samuel/go-zookeeper/zk"

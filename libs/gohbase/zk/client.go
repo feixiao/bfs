@@ -12,7 +12,7 @@ import (
 
 	log "github.com/golang/glog"
 
-	"bfs/libs/gohbase/pb"
+	"github.com/feixiao/bfs/libs/gohbase/pb"
 	"path"
 	"sync"
 

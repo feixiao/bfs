@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"bfs/libs/memcache"
-	"bfs/libs/meta"
+	"github.com/feixiao/bfs/libs/memcache"
+	"github.com/feixiao/bfs/libs/meta"
 
 	log "github.com/golang/glog"
 )

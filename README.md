@@ -44,7 +44,7 @@ $ go get ./...
 
 2.安装directory、store、pitchfork、proxy模块(配置文件请依据实际机器环境配置)
 ```sh
-$ cd $GOPATH/src/github.com/Terry-Mao/bfs/directory
+$ cd $GOPATH/src/github.com/Terry-Mao/github.com/feixiao/bfs/directory
 $ go install
 $ cp directory.toml $GOPATH/bin/directory.toml
 $ cd ../store/
@@ -67,17 +67,17 @@ $ nohup $GOPATH/bin/directory -c $GOPATH/bin/directory.toml &
 $ nohup $GOPATH/bin/store -c $GOPATH/bin/store.toml &
 $ nohup $GOPATH/bin/pitchfork -c $GOPATH/bin/pitchfork.toml &
 $ nohup $GOPATH/bin/proxy -c $GOPATH/bin/proxy.toml &
-$ cd $GOPATH/github.com/Terry-Mao/bfs/ops
+$ cd $GOPATH/github.com/Terry-Mao/github.com/feixiao/bfs/ops
 $ nohup python runserver.py &
 ```
 
 ### 六、测试
- * bfs初始化，分配存储空间，请查看[这里](https://github.com/Terry-Mao/bfs/doc/ops.md)
- * 请求bfs，请查看[这里](https://github.com/Terry-Mao/bfs/doc/proxy.md)
+ * bfs初始化，分配存储空间，请查看[这里](https://github.com/Terry-Mao/github.com/feixiao/bfs/doc/ops.md)
+ * 请求bfs，请查看[这里](https://github.com/Terry-Mao/github.com/feixiao/bfs/doc/proxy.md)
 
 ## 集群
 
-![Aaron Swartz](http://i0.hdslb.com/bfs/active/bfs_server.png)
+![Aaron Swartz](http://i0.hdslb.com/github.com/feixiao/bfs/active/bfs_server.png)
 
 ### directory
 
@@ -100,5 +100,5 @@ $ nohup python runserver.py &
  * ops作为bfs的后台管理界面，负责分配存储、扩容、压缩等维护工作
  
 ## API
-[api文档](https://github.com/Terry-Mao/bfs/blob/master/doc/api.md)
+[api文档](https://github.com/Terry-Mao/github.com/feixiao/bfs/blob/master/doc/api.md)
 ## 更多

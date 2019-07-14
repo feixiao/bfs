@@ -15,8 +15,8 @@ import (
 	"path"
 	"strings"
 
-	"bfs/libs/gohbase"
-	"bfs/libs/gohbase/hrpc"
+	"github.com/feixiao/bfs/libs/gohbase"
+	"github.com/feixiao/bfs/libs/gohbase/hrpc"
 )
 
 // This error is returned when the HBASE_HOME environment variable is unset

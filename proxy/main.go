@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bfs/proxy/conf"
+	"github.com/feixiao/bfs/proxy/conf"
 	"flag"
 	"os"
 	"os/signal"

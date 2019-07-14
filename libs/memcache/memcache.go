@@ -3,9 +3,9 @@ package memcache
 import (
 	"time"
 
-	xtime "bfs/libs/time"
+	xtime "github.com/feixiao/bfs/libs/time"
 
-	"bfs/libs/memcache/gomemcache/memcache"
+	"github.com/feixiao/bfs/libs/memcache/gomemcache/memcache"
 )
 
 const (

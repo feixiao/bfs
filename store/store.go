@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/store/conf"
-	myos "bfs/store/os"
-	"bfs/store/volume"
-	myzk "bfs/store/zk"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/meta"
+	"github.com/feixiao/bfs/store/conf"
+	myos "github.com/feixiao/bfs/store/os"
+	"github.com/feixiao/bfs/store/volume"
+	myzk "github.com/feixiao/bfs/store/zk"
 	"fmt"
 	log "github.com/golang/glog"
 	"io/ioutil"
@@ -20,14 +20,14 @@ import (
 
 // Store get all volume meta data from a index file. index contains volume id,
 // volume file path, the super block file index ends with ".idx" if the super
-// block is /bfs/super_block_1, then the super block index file is
-// /bfs/super_block_1.idx.
+// block is /github.com/feixiao/bfs/super_block_1, then the super block index file is
+// /github.com/feixiao/bfs/super_block_1.idx.
 //
 // volume index file format:
 //  ---------------------------------
 // | block_path,index_path,volume_id |
-// | /bfs/block_1,/bfs/block_1.idx\n |
-// | /bfs/block_2,/bfs/block_2.idx\n |
+// | /github.com/feixiao/bfs/block_1,/github.com/feixiao/bfs/block_1.idx\n |
+// | /github.com/feixiao/bfs/block_2,/github.com/feixiao/bfs/block_2.idx\n |
 //  ---------------------------------
 //
 // store -> N volumes

@@ -1,10 +1,10 @@
 package index
 
 import (
-	"bfs/libs/encoding/binary"
-	"bfs/libs/errors"
-	"bfs/store/conf"
-	myos "bfs/store/os"
+	"github.com/feixiao/bfs/libs/encoding/binary"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/store/conf"
+	myos "github.com/feixiao/bfs/store/os"
 	"bufio"
 	"fmt"
 	log "github.com/golang/glog"

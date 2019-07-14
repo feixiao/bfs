@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/pitchfork/conf"
-	myzk "bfs/pitchfork/zk"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/meta"
+	"github.com/feixiao/bfs/pitchfork/conf"
+	myzk "github.com/feixiao/bfs/pitchfork/zk"
 	"encoding/json"
 	"sort"
 	"time"

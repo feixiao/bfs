@@ -1,8 +1,8 @@
 package zk
 
 import (
-	"bfs/libs/meta"
-	"bfs/pitchfork/conf"
+	"github.com/feixiao/bfs/libs/meta"
+	"github.com/feixiao/bfs/pitchfork/conf"
 	"encoding/json"
 	"fmt"
 	log "github.com/golang/glog"

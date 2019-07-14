@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"bfs/directory/conf"
-	dzk "bfs/directory/zk"
-	"bfs/libs/meta"
+	"github.com/feixiao/bfs/directory/conf"
+	dzk "github.com/feixiao/bfs/directory/zk"
+	"github.com/feixiao/bfs/libs/meta"
 )
 
 func TestHTTPAPI(t *testing.T) {

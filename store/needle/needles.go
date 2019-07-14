@@ -1,7 +1,7 @@
 package needle
 
 import (
-	"bfs/libs/errors"
+	"github.com/feixiao/bfs/libs/errors"
 	"io"
 )
 

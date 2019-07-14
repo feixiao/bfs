@@ -4,8 +4,8 @@ import (
 	"testing"
 	// "time"
 
-	"bfs/directory/conf"
-	dzk "bfs/directory/zk"
+	"github.com/feixiao/bfs/directory/conf"
+	dzk "github.com/feixiao/bfs/directory/zk"
 )
 
 func TestDirectory(t *testing.T) {

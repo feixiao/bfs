@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/proxy/auth"
-	"bfs/proxy/bfs"
-	ibucket "bfs/proxy/bucket"
-	"bfs/proxy/cdn"
-	"bfs/proxy/conf"
+	"github.com/feixiao/bfs/libs/errors"
+	"github.com/feixiao/bfs/proxy/auth"
+	"github.com/feixiao/bfs/proxy/bfs"
+	ibucket "github.com/feixiao/bfs/proxy/bucket"
+	"github.com/feixiao/bfs/proxy/cdn"
+	"github.com/feixiao/bfs/proxy/conf"
 	"crypto/sha1"
 	"encoding/hex"
 	"encoding/json"
